@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.linet.carhire">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="com.linet.carhire.Dmap" android:parentActivityName="com.linet.carhire.Dlogin"/>
+        <activity android:name="com.linet.carhire.Rdetails" />
+        <activity android:name="com.linet.carhire.Ddetails" />
+        <activity android:name="com.linet.carhire.Rterms" android:parentActivityName="com.linet.carhire.Signup"/>
+        <activity android:name="com.linet.carhire.Dterms" />
+        <activity android:name="com.linet.carhire.Dmanual" />
+        <activity android:name="com.linet.carhire.Signup" android:parentActivityName="com.linet.carhire.Login"/>
+        <activity android:name="com.linet.carhire.Rmap" android:parentActivityName="com.linet.carhire.Login"/>
+        <activity android:name="com.linet.carhire.Rgmail" />
+        <activity android:name="com.linet.carhire.Dgmail" />
+        <activity android:name="com.linet.carhire.Rsignup" />
+        <activity android:name="com.linet.carhire.Dsignup" />
+        <activity android:name="com.linet.carhire.Login" android:parentActivityName="com.linet.carhire.MainActivity"/>
+        <activity android:name="com.linet.carhire.Dlogin" android:parentActivityName="com.linet.carhire.Login"/>
+        <activity android:name="com.linet.carhire.User" />
+        <activity android:name="com.linet.carhire.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
